@@ -1,0 +1,731 @@
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.52f1 (9e4086222921)
+[Subsystems] Discovering subsystems at path C:/Users/1/Desktop/8.06/DAVE THE DIVER/DaveTheDiver_Data/UnitySubsystems
+kGfxThreadingModeSplitJobs is not supported on Direct3D 11. Reverting to kGfxThreadingModeClientWorkerJobs instead.
+GfxDevice: creating device client; kGfxThreadingModeClientWorkerJobs
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 730 (ID=0x4692)
+    Vendor:   Intel
+    VRAM:     8079 MB
+    Driver:   31.0.101.4953
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script (GDKMgr) on this Behaviour is missing!
+The referenced script on this Behaviour (Game Object 'GDKMgr') is missing!
+UnloadTime: 0.043100 ms
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Sirenix.Serialization.UnitySerializationInitializer:Initialize()
+
+Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Sirenix.Serialization.ArchitectureInfo:SetRuntimePlatform(RuntimePlatform)
+Sirenix.Serialization.UnitySerializationInitializer:Initialize()
+
+[DEV] WaitForCompletion_WithLog : ChainOperation<ClipContainer> - InitializationOperation
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(Vib_Gun_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(Vib_Dave_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(Vib_Sushi_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(Vib_MiniGame_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(Vib_UI_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(Vib_Timeline_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(Vib_Gimmick_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(Vib_Bacon_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(DLC_Vib_LikeaDragon_Beat_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(JDLC_Vib_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<ClipContainer>(JDLC_Vib_Container_Weapon.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.ClipPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<TriggerEffectContainer>(TE_Weapon_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.TriggerEffectPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<TriggerEffectContainer>(TE_Dave_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.TriggerEffectPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[DEV] WaitForCompletion_WithLog : Resource<TriggerEffectContainer>(TE_JDLC_Container.asset)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+PlayStation.TriggerEffectPlayer:Init(Int32)
+PlayStation.PlayStationController:Init()
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(Assets/Contents/PlayContents/Common/Prefabs/CameraResolution.prefab)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<Start>d__0:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+RenderGraph is now disabled.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor(UniversalRenderPipelineAsset)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 35)
+UnloadTime: 0.874800 ms
+Build Version : v1.0.6.2037.steam
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+LogoManager:Awake()
+
+ondestroy called singleton CameraResolution
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 17032.
+Total: 18.142900 ms (FindLiveObjects: 0.502800 ms CreateObjectMapping: 0.870300 ms MarkObjects: 16.647700 ms  DeleteObjects: 0.121600 ms)
+
+[4.831901][SingletonAddrScriptableObject] LoadAssetAsync: obj:SoundConfigManager
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+SingletonAddrScriptableObject`1:LoadBundle(Action)
+<Init>d__32:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicLoadAssetAsync(SoundConfigManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicLoadAssetAsync(Object)
+SingletonAddrScriptableObject`1:LoadBundle(Action)
+<Init>d__32:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(SoundManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(AnalyticsManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[4.916906][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:SoundConfigManager
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+<>c__DisplayClass5_0:<LoadBundle>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[Addressables][Steam] Load Request : BasicLoadAssetAsync(UIFontContainer)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicLoadAssetAsync(Object)
+Common.UI.<InstanceAsync>d__4:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(FontManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(GlobalUI)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(GlobalSceneLoader)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+start singleton instanc : DataManager
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Singleton`1:get_Instance()
+<Start>d__15:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(DataManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+Singleton`1:get_Instance()
+<Start>d__15:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[DEV] WaitForCompletion_WithLog : Instance<InstanceProvider>(Resource<GameObject>(DataManager.prefab)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+Singleton`1:get_Instance()
+<Start>d__15:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(GameFormulaManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(ScenarioDataManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicLoadAssetAsync(Scenario)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicLoadAssetAsync(Object)
+AddressableAssetsLoader:LoadAssetFromAddress(String, AddressblesReleaseOption, Action`1)
+ScenarioDataManager:Awake_Impl()
+Singleton`1:Awake()
+UnityEngine.Object:Internal_CloneSingle(Object)
+UnityEngine.Object:Instantiate(T)
+UnityEngine.ResourceManagement.ResourceProviders.InstantiationParameters:Instantiate(TObject)
+UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider:ProvideInstance(ResourceManager, AsyncOperationHandle`1, InstantiationParameters)
+UnityEngine.ResourceManagement.InstanceOperation:Execute()
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:InvokeExecute()
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass60_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(UtilManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+start singleton instanc : ResourceManager
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Singleton`1:get_Instance()
+<Init>d__32:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(ResourceManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+Singleton`1:get_Instance()
+<Init>d__32:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[DEV] WaitForCompletion_WithLog : Instance<InstanceProvider>(Resource<GameObject>(ResourceManager.prefab)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+Singleton`1:get_Instance()
+<Init>d__32:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+InGameResource : preload ingame common resource
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ResourceManager:LoadInGameAddressable()
+<Init>d__32:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+start singleton instanc : GlobalPPManager
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Singleton`1:get_Instance()
+<Init>d__32:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(GlobalPPManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+Singleton`1:get_Instance()
+<Init>d__32:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[DEV] WaitForCompletion_WithLog : Instance<InstanceProvider>(Resource<GameObject>(GlobalPPManager.prefab)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+Singleton`1:get_Instance()
+<Init>d__32:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(CrashReportManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicLoadAssetsAsync(dr_gamedata_text)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicLoadAssetsAsync(Object, Action`1)
+<LoadTextData>d__44:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicLoadAssetsAsync(dr_gamedata_sheet_prev)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicLoadAssetsAsync(Object, Action`1)
+<LoadGameData>d__46:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicLoadAssetsAsync(dr_gamedata_sheet)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicLoadAssetsAsync(Object, Action`1)
+<LoadGameData>d__46:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[DEV] WaitForCompletion_WithLog : Resource<TextAsset>(DR_GameData_ConstValues.json)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+DR.BaseSheetDataHelper:ReadData()
+DR.ConstantSheetDataHelper`2:LoadData()
+DR.GameConstValue:get_start_scene_id()
+DataManager:BindGameConstValue()
+DataManager:Load_DR_GameData_System(TextAsset)
+System.Reflection.RuntimeMethodInfo:Invoke(Object, BindingFlags, Binder, Object[], CultureInfo)
+System.Reflection.MethodBase:Invoke(Object, Object[])
+DataManager:Parsing(TextAsset)
+UnityEngine.ResourceManagement.<>c__DisplayClass90_0`1:<ProvideResources>b__0(AsyncOperationHandle)
+UnityEngine.ResourceManagement.AsyncOperations.<>c__DisplayClass60_0:<add_CompletedTypeless>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+start singleton instanc : SaveSystem
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+Singleton`1:get_Instance()
+GameBase:LoadSavedData()
+<LoadGameData>d__45:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(SaveSystem)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+Singleton`1:get_Instance()
+GameBase:LoadSavedData()
+<LoadGameData>d__45:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[DEV] WaitForCompletion_WithLog : Instance<InstanceProvider>(Resource<GameObject>(SaveSystem.prefab)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AsyncOperationExtensions:WaitForCompletion_WithLog(AsyncOperationHandle`1)
+Singleton`1:get_Instance()
+GameBase:LoadSavedData()
+<LoadGameData>d__45:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Haptic][START][GET CONTROLLER HANDLER]:-1
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+<Start>d__34:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Save Convert] UserOption save version 0.0.31 is target version. applying common convert
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
+DR.Save.SaveLoadManagerBase`1:LoadData()
+DR.Save.SaveSystem:LoadAllData()
+DR.Save.<InitSaveSystem>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Save Convert] GameData save version 0.0.31 is target version. applying common convert
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
+DR.Save.SaveLoadManagerBase`1:LoadData()
+DR.Save.SaveSystem:LoadAllData()
+DR.Save.<InitSaveSystem>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Save Convert] GameData Converting... Prev Ver : -100, Next Ver : -100
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SaveConverterTool.SaveConverterBase:ConvertToTargetVersion(JObject)
+SaveConverterTool.SaveConverter_GD_Common:ConvertToTargetVersion(JObject)
+SaveConverterTool.<>c__DisplayClass4_0:<Convert>g__ApplyCommonConvert|0()
+SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
+DR.Save.SaveLoadManagerBase`1:LoadData()
+DR.Save.SaveSystem:LoadAllData()
+DR.Save.<InitSaveSystem>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Save Convert] Array Token "clearedEvents": [
+  0,
+  100,
+  102,
+  104,
+  300,
+  201,
+  101,
+  302,
+  301,
+  504,
+  500,
+  503,
+  501,
+  502,
+  203,
+  204,
+  307,
+  604,
+  606,
+  601,
+  602,
+  605,
+  603,
+  610,
+  611
+] Removed Value : 309
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SaveConverterTool.JsonConverter:RemoveFromArray(JToken, JToken)
+SaveConverterTool.SaveConverter_GD_Common:ConvertCommon(JObject)
+SaveConverterTool.<>c__DisplayClass4_0:<Convert>g__ApplyCommonConvert|0()
+SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
+DR.Save.SaveLoadManagerBase`1:LoadData()
+DR.Save.SaveSystem:LoadAllData()
+DR.Save.<InitSaveSystem>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Save Convert] GameData Applied Common Converting
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SaveConverterTool.SaveConverter_GD_Common:ConvertCommon(JObject)
+SaveConverterTool.<>c__DisplayClass4_0:<Convert>g__ApplyCommonConvert|0()
+SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
+DR.Save.SaveLoadManagerBase`1:LoadData()
+DR.Save.SaveSystem:LoadAllData()
+DR.Save.<InitSaveSystem>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Save Convert] PhotoData save version 0.0.31 is target version. applying common convert
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:LogWarning(Object)
+SaveConverterTool.SaveConvertSystem:Convert(String, String, String, Boolean&, Boolean)
+DR.Save.SaveLoadManagerBase`1:LoadData()
+DR.Save.SaveSystem:LoadAllData()
+DR.Save.<InitSaveSystem>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(RewardCanvas)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+DR.Save.<InitSaveSystem>d__42:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(MissionCanvas)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(ContentsUnlockCanvas)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(ChapterManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(CarryItemManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicInstantiateAsync(DRInputVibController)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicInstantiateAsync(Object, Transform, Boolean, Boolean)
+<InstanceAsync>d__9:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[13.783][SingletonAddrScriptableObject] LoadAssetAsync: obj:CursorManager
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+SingletonAddrScriptableObject`1:LoadBundle(Action)
+<InitAfterSaveSystem>d__45:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[Addressables][Steam] Load Request : BasicLoadAssetAsync(CursorManager)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+AddressableAssetsLoader:BasicLoadAssetAsync(Object)
+SingletonAddrScriptableObject`1:LoadBundle(Action)
+<InitAfterSaveSystem>d__45:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[DLC localcheck] bundleAppId:2677020, isDlcInstalled:True
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ItemIntegrityCheck:PreCheckLocalDLC(UInt32)
+<CheckDlcOwnership>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+<AgeGradeEvent>d__13:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[DLC localcheck] bundleAppId:2841140, isDlcInstalled:True
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ItemIntegrityCheck:PreCheckLocalDLC(UInt32)
+<CheckDlcOwnership>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+<AgeGradeEvent>d__13:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[DLC localcheck] bundleAppId:3543180, isDlcInstalled:True
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ItemIntegrityCheck:PreCheckLocalDLC(UInt32)
+<CheckDlcOwnership>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+<AgeGradeEvent>d__13:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[DLC localcheck] bundleAppId:4158580, isDlcInstalled:False
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ItemIntegrityCheck:PreCheckLocalDLC(UInt32)
+<CheckDlcOwnership>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+<AgeGradeEvent>d__13:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[DLC localcheck] bundleAppId:4394810, isDlcInstalled:True
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+ItemIntegrityCheck:PreCheckLocalDLC(UInt32)
+<CheckDlcOwnership>d__11:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+<AgeGradeEvent>d__13:MoveNext()
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+[13.82553][SingletonAddrScriptableObject] COMPLETE LoadAssetAsync: obj:CursorManager
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+<>c__DisplayClass5_0:<LoadBundle>b__0(AsyncOperationHandle`1)
+DelegateList`1:Invoke(T)
+UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1:Complete(TObject, Boolean, Exception, Boolean)
+UnityEngine.ResourceManagement.AsyncOperations.ProviderOperation`1:ProviderCompleted(T, Boolean, Exception)
+UnityEngine.ResourceManagement.ResourceProviders.InternalOp:CompleteOperation()
+UnityEngine.AsyncOperation:InvokeCompletionEvent()
+
+httpCode=OK, Rescode=2001
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+ItemIntegrityCheck:OnResult(OwnAppInfo, HttpStatusCode, Int32)
+ItemIntegrityCheck:OnEncryptedAppTicketResponse(EncryptedAppTicketResponse_t, Boolean)
+Steamworks.CallResult`1:OnRunCallResult(IntPtr, Boolean, UInt64)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+
+Curl error 28: Failed to connect to config.uca.cloud.unity3d.com port 443 after 21036 ms: Could not connect to server
+httpCode=OK, Rescode=2001
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, String, Object[])
+UnityEngine.Debug:LogFormat(String, Object[])
+ItemIntegrityCheck:OnResult(OwnAppInfo, HttpStatusCode, Int32)
+ItemIntegrityCheck:OnEncryptedAppTicketResponse(EncryptedAppTicketResponse_t, Boolean)
+Steamworks.CallResult`1:OnRunCallResult(IntPtr, Boolean, UInt64)
+Steamworks.CallbackDispatcher:RunFrame(Boolean)
+
