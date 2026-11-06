@@ -1,40 +1,77 @@
 import sqlite3
 
-cur = sqlite3.connect('test.db')
-cut = cur.cursor()
+conn = sqlite3.connect("test.db")
+cursor = conn.cursor()
 
-cur.execute("""
-    CREATE TABLE IF NOT EXISTS product (
-    id INTEGER PRIMARY KEY,
-    name TEXT,
-    birthday_day INTEGER
-);
-""")
-
-cur.execute("""
+cursor.execute("""
     CREATE TABLE IF NOT EXISTS movies (
     id INTEGER PRIMARY KEY,
     name TEXT, 
-    release_date INTEGER
+    type TEXT,
+    year INTEGER
 );
 """)
 
-product = [
-    (1, "название", 1231),
-    (2, "название2", 1127),
-    (3, "название3", 1593),
-]
+cursor.execute('''
+    CREATE TABLE IF NOT EXISTS ice_cream (
+        id INTEGER PRIMARY KEY,
+        name TEXT,
+        type TEXT,
+        title TEXT,
+        description TEXT,
+        price REAL,
+        is_published INTEGER,
+        is_on_main INTEGER
+    );
+''')
 
+
+ice_cream = [
+    (1, 'Егор', 'Мужчина', 'Карамельное', 'Очень вкусное 5 из 10', 250, 1, 1),
+    (2, 'Вася', 'Девушка', 'Шоколадное', 'Вкусное 4 из 10', 400, 1, 1),
+    (3, 'Петя', 'Мужчина', 'Фисташковое', 'Очень вкусное 9 из 10', 150, 0, 1),
+    (4, 'Иван', 'Мужчина', 'Клубничное', 'Вкусное 4 из 10', 150, 1, 0),
+]
 movies = [
-    (1, "sdad", 1231),
-    (2, "asdasfda", 1212),
-    (3, "wqda", 7845),
+    (1, "Весёлые мелодии", "Мультсериал", 1930, None),
+    (2, "Безумные Мелодии Луни Тюнз", "Мультсериал", 1931, None),
+    (3, "Кто подставил кролика Роджер", "фильм", 1988, None),
+    (4, "Хороший, плохой, злой", "фильм", 1967, 12631),
+    (5, "Последний киногерой", "фильм", 1993, 2136),
+    (6, "Она написала убийство", "сериал", 1984, None),
+    (7, "Лас-Вегас", "сериал", 2003, None),
 ]
 
-cur.executemany(""" INSERT INTO product VALUES (?, ?, ?)""", product)
-cur.executemany(""" INSERT INTO movies VALUES (?, ?, ?)""", movies)
+cursor.execute('''
+    ALTER TABLE movies ADD COLUMN gross INTEGER DEFAULT NULL;   ''')
 
-cur.commit()
+cursor.executemany(""" INSERT OR IGNORE INTO movies VALUES (?, ?, ?, ?, ?)""", movies)
+cursor.executemany(''' INSERT OR IGNORE INTO ice_cream VALUES(?, ?, ?, ?, ?, ?, ?, ?)''', ice_cream)
+conn.commit()
+
+# cursor.execute('''
+# SELECT COUNT(*)
+# FROM movies;
+# ''')
+
+# cursor.execute('''
+# SELECT name, title
+# FROM ice_cream
+# WHERE is_published = 1
+# ORDER BY name DESC
+# LIMIT 2 OFFSET 1;
+# ''')
+
+cursor.execute('''
+SELECT MIN(gross), MAX(gross)
+FROM movies;
+''')
+
+results = cursor.fetchall()
+
+for row in results:
+    print(row)
 
 
-https://colab.research.google.com/drive/1aHP-IeOtd3aJdQ3smS5phMP-mJeDbze4?usp=sharing
+cursor.close()
+conn.close()
