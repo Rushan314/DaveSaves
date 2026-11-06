@@ -35,3 +35,6 @@ cur.executemany(""" INSERT INTO product VALUES (?, ?, ?)""", product)
 cur.executemany(""" INSERT INTO movies VALUES (?, ?, ?)""", movies)
 
 cur.commit()
+
+
+https://colab.research.google.com/drive/1aHP-IeOtd3aJdQ3smS5phMP-mJeDbze4?usp=sharing
