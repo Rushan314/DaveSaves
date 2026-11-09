@@ -62,9 +62,70 @@ conn.commit()
 # LIMIT 2 OFFSET 1;
 # ''')
 
+# cursor.execute('''
+# SELECT MIN(gross), MAX(gross)
+# FROM movies;
+# ''')
+
+# cursor.execute('''
+# SELECT AVG(gross)
+# FROM movies
+# WHERE year > 1980;
+# ''')
+
+# cursor.execute('''
+# SELECT AVG(gross)
+# FROM movies
+# WHERE year > 1980;
+# ''')
+
+# cursor.execute('''
+# SELECT MIN(price) 
+# FROM ice_cream;
+# ''')
+
+# cursor.execute('''
+# SELECT AVG(price)
+# FROM ice_cream
+# WHERE title = "Фисташковое";
+# ''')
+
+# cursor.execute('''
+# SELECT SUM(price)
+# FROM ice_cream
+# WHERE is_published = 1 AND is_on_main = 1;
+# ''')
+
+
+# cursor.execute('''
+# SELECT type,
+#        COUNT(*)
+# FROM movies
+# GROUP BY type;
+# ''')
+
+
+# cursor.execute('''
+# SELECT type,
+#        MIN(year)
+# FROM movies
+# GROUP BY type
+# ''')
+
+
+# cursor.execute('''
+# SELECT type,
+#        SUM(gross)
+# FROM movies
+# GROUP BY type
+# ''')
+
 cursor.execute('''
-SELECT MIN(gross), MAX(gross)
-FROM movies;
+SELECT type,
+       SUM(gross)
+FROM movies
+GROUP BY type
+HAVING SUM(gross) IS NOT NULL;
 ''')
 
 results = cursor.fetchall()
